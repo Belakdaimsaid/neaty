@@ -1,0 +1,129 @@
+.smenu{
+    display: block;
+    width: 100%;
+}
+.menu{
+    
+    background-color: blueviolet;
+    width: 300px;
+    height: 630px;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+ul{
+   margin-top:-180px ;
+}
+li{
+   
+   margin-top: 40px;
+   font-size: 20px;
+   color: aliceblue;
+   
+}
+a{
+   font-size: 20px;
+   color: aliceblue;
+   text-decoration: none;
+}
+.contener{
+    
+    width:78% ;
+    margin-left:22.6% ;
+
+}
+ #naty1{
+    width: 100%;
+    height: 635px;
+
+ } 
+ #about{
+
+
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top:-40px ;
+   
+  }
+  
+  #About{
+    margin-left: 300px;
+    margin-top: 60px;
+  } 
+  #f3{
+    margin-left: 300px;
+    margin-top: -250px;
+    font-size: 25px;
+  }
+  #wel{
+    font-size: 25px;
+   margin-left: 50px;
+ }
+ #Welcome{
+   margin-left: 50px;
+ }
+  #rrr{
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 20px;
+  }
+ #pic{
+    width: 200px;
+    margin-left: 0.7px;
+ }
+ #one{
+    margin-left: 20px;
+ }
+ #to{
+    width: 300px;
+     margin-left:30px ; 
+
+ }
+ #too{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+
+ }
+ #t{
+    width: 220px;
+    margin-left: 30px;
+ }
+#po{
+   margin-left:30px ;
+   width: 40%;
+   height: 50px;
+   color:  blueviolet;
+   font-size: 20px;
+}
+#mess{
+   margin-left:30px ;
+   width: 40%;
+   height: 200px;
+   color: blueviolet;
+   font-size: 20px;
+}
+#send{
+   margin-left:30px ;
+   width: 15%;
+   height: 70px;
+   background-color: blueviolet;
+   color: white;
+   font-size: 20px;
+}
+#der{
+   margin-left: 500px;
+   margin-top: -350px;
+   font-size: 25px; 
+}
+
+
+
+
