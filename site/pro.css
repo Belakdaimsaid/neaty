@@ -1,3 +1,6 @@
+html {
+   scroll-behavior: smooth;
+}
 .smenu{
     display: block;
     width: 100%;
@@ -6,22 +9,24 @@
     
     background-color: blueviolet;
     width: 300px;
-    height: 630px;
+    height: 98.5vh;
     position: fixed;
     display: grid;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    
+    border-radius: 8px;
 }
 ul{
    margin-top:-180px ;
+   text-decoration: none;
 }
 li{
    
    margin-top: 40px;
    font-size: 20px;
    color: aliceblue;
+   list-style: none;
    
 }
 a{
@@ -124,6 +129,120 @@ a{
    font-size: 25px; 
 }
 
+@media screen and (max-width:820px) {
+   .menu {
+      width: 100%;
+      margin-bottom: 20px;
+      position: relative;
+      height: 90vh;
+      border-radius: 15px;
+   }
+   .menu img {
+      position: absolute;
+      left: 200px;
+      width: 119px;
+      margin-top: -391px;
+   }
+   .menu ul {
+      margin-top: 33px;
+      text-align: center;
+   }
+   ul li {
+       
+      list-style: none;
+   }
+   li a:hover {
+      font-size: 25px;
+      background-color: brown;
+      border-radius: 8px;
+   }
+   .contener {
+      
+      margin-left: 0;
+   }
+#Gallery{
+   width: 100%;
+   
+}
+#one{
+   width: 100%;
+}
+#pic{
+   width: 500px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+#too{
+   width: 500px;
+   border-radius: 10px;
+}
+#to{
+   width: 500px;
+   border-radius: 10px;
+}
+#t{
+   width: 500px;
+   border-radius: 10px;
+}
+#der{
+   width: 80%;
+   margin-left: 216px;
+   margin-top: -350px;
+   font-size: 25px;
+}
+#f3 {
+   margin-left: 20px;
+   /* margin-top: -250px; */
+   font-size: 25px;
+   width: 100%;
+}
+
+#f3 {
+   margin-left: 40px;
+    margin-top: 50px; 
+   font-size: 25px;
+   width: 100%;
+}
+#about {
+   width: 100%;
+   margin-left: 52px;
+    margin-top: -16px; 
+   height: 283px;
+   border-radius: 10px;
+}
+#About h2{
+margin-left: 39px;
+}
+#About {
+    margin-left: 00px; 
+   margin-top: 0px; 
+}
+#rrr {
+   height: 50px;
+   width: 200px;
+   background-color: brown;
+   margin-top: 25px;
+   color: aliceblue;
+   font-size: 20px;
+   border: none;
+   border-radius: 8px;
+}
+#naty1 {
+   width: 128%;
+   height: 635px;
+   border-radius: 8px;
+}
+#send {
+   margin-left: 30px;
+   width: 40%;
+   height: 70px;
+   background-color: blueviolet;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 8px;
+}
+}
 
 
 
